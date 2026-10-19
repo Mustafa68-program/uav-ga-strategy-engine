@@ -1,0 +1,56 @@
+{
+  "mission": {
+    "grid_size": 50,
+    "n_drones": 3,
+    "n_waypoints": 6,
+    "base": [
+      2.0,
+      2.0
+    ],
+    "speed_range": [
+      1.0,
+      4.0
+    ],
+    "radius_range": [
+      1.5,
+      5.0
+    ],
+    "e0": 0.5,
+    "e1": 0.25,
+    "sensor_cost": 0.8,
+    "max_range": 140.0,
+    "battery": 300.0,
+    "deadline": 80.0,
+    "time_ref": 100.0,
+    "hazard_ref": 40.0,
+    "sample_step": 1.0
+  },
+  "weights": {
+    "coverage": 0.35,
+    "detection": 0.2,
+    "energy": 0.15,
+    "time": 0.1,
+    "hazard": 0.2
+  },
+  "penalties": {
+    "range": 2.0,
+    "battery": 2.0,
+    "no_fly": 4.0,
+    "deadline": 2.0
+  },
+  "ga": {
+    "population_size": 80,
+    "generations": 150,
+    "selection": "tournament",
+    "tournament_size": 3,
+    "crossover_rate": 0.85,
+    "mutation_rate": 0.03,
+    "mutation_sigma": 4.0,
+    "elite_count": 2,
+    "adaptive": true,
+    "immigrant_fraction": 0.1,
+    "stagnation_trigger": 8,
+    "patience": 60,
+    "seed": 0
+  }
+}
