@@ -121,10 +121,3 @@ mutation rate 0.005 / 0.03 / 0.3 = 0.194 / 0.220 / -0.000;
 tournament size 1 / 3 / 8 = -0.042 / 0.220 / 0.250.
 Details and discussion are in the technical report.
 
-## 8. Team
-
-| Member | Roll No | Contribution |
-|---|---|---|
-| [name] | [roll no] | [e.g. chromosome and fitness design] |
-| [name] | [roll no] | [e.g. operators and constraint handling] |
-| [name] | [roll no] | [e.g. experiments, plots, report] |
